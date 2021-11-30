@@ -1,0 +1,20 @@
+{
+  "name": "sound",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon test js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "node-fetch": "^3.1.0",
+    "node-telegram-bot-api": "^0.18.0"
+  }
+}
